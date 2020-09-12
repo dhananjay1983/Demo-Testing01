@@ -6,13 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open": "cypress open",
-    "test:e2e": "cypress run --browser chrome",
-    "test:e2e:smoke": "cypress run --browser chrome --spec 'cypress/integration/smoke/*'",
+    "test:e2e": "cypress run --browser edge",
+    "test:e2e:smoke": "cypress run --browser firefox --spec 'cypress/integration/smoke/*'",
     "test:e2e:functional": "cypress run --browser chrome --spec 'cypress/integration/functional/*'"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^3.0.2"
+    "cypress": "^5.1.0"
   }
 }
