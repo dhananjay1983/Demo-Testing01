@@ -1,5 +1,7 @@
 describe('My First Test', () => {
-  it('Does not do much!', () => {
-    expect(true).to.equal(true)
+  it('finds the content "WOMEN"', () => {
+    cy.visit('http://automationpractice.com/index.php')
+    cy.class('sf-with-ul').click
+
   })
 })
